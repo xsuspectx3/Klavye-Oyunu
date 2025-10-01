@@ -1,0 +1,5 @@
+{
+  "name": "Typing Tetris for Kids",
+  "description": "An engaging Tetris-like game designed to help children improve their keyboard typing skills. Letters fall from the top, and kids must press the correct key to clear them before they reach the bottom.",
+  "requestFramePermissions": []
+}
