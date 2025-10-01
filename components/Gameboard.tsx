@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import type { FallingLetter } from '../types';
+import type { FallingLetter } from '../types.ts';
 import { 
     ALPHABET, 
     GAME_HEIGHT, 
@@ -11,7 +11,7 @@ import {
     BOUNDARY_INCREMENT, 
     SCORE_PER_LETTER,
     LEVEL_UP_SCORE
-} from '../constants';
+} from '../constants.ts';
 
 interface GameboardProps {
   onGameOver: (finalScore: number) => void;

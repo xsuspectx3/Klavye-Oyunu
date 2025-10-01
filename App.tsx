@@ -1,9 +1,9 @@
 
 import React, { useState, useCallback } from 'react';
-import Gameboard from './components/Gameboard';
-import StartScreen from './components/StartScreen';
-import GameOverScreen from './components/GameOverScreen';
-import type { GameState } from './types';
+import Gameboard from './components/Gameboard.tsx';
+import StartScreen from './components/StartScreen.tsx';
+import GameOverScreen from './components/GameOverScreen.tsx';
+import type { GameState } from './types.ts';
 
 const App: React.FC = () => {
   const [gameState, setGameState] = useState<GameState>('start');
